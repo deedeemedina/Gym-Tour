@@ -1177,3 +1177,28 @@ textarea:focus {
         line-height: 30px;
     }
 }
+
+.dark-theme {
+    background: black;
+    color: white;
+    font-family: 'Graphik Web', sans-serif;
+    font-weight: normal;
+
+  }
+  .is-tablet, .is-desktop, .is-desktop-large, .hidden {
+    display: none !important;
+}
+.dark-theme .video-wrap {
+    position: relative;
+}
+.dark-theme .video-wrap video {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
