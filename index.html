@@ -86,15 +86,21 @@
         <!-- box-intro -->
 
         <section class="box-intro">
-            <div class="table-cell">
+            <div class="table-cell" style="
+            position: relative;
+            width: 100%;
+            height: 10em;">
               <div class="fullscreen-video-wrap">
-           <video style="position:block; width:100%; height:auto;" controls autoplay muted loop>
+           <video style="position:inline-block; width:100%; height:auto;" controls autoplay muted loop>
               <source src="./boxing-gym.mp4" type="video/mp4">
            </video>
 
         </div>
-            <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
+            <h1 class="box-headline letters rotate-2" style="
+            position: absolute;
+            top: 0;
+            z-index: 10;">
+                    <span class="box-words-wrapper" style="width: 385px;">
                         <b class="is-visible">Fitness.</b>
                         <b>&nbsp;Passion.</b>
                         <b>Support.</b>

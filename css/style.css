@@ -96,6 +96,7 @@ h3 {
 
 h5 {
     color: #ffbf00;
+    font-size: 20px;
 }
 
 
@@ -530,11 +531,16 @@ b i:last-child {
 .box-headline {
     font-size: 130px;
     line-height: 1.0;
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
 }
 
 .box-words-wrapper {
     display: inline-block;
-    position: relative;
+    position: relative; 
+
+
 }
 
 .box-words-wrapper b {
@@ -543,18 +549,23 @@ b i:last-child {
     white-space: nowrap;
     left: 0;
     top: 0;
+
 }
 
 .box-words-wrapper b.is-visible {
     position: relative;
+
+
 }
 
 .no-js .box-words-wrapper b {
     opacity: 0;
+
 }
 
 .no-js .box-words-wrapper b.is-visible {
     opacity: 1;
+
 }
 
 .box-headline.rotate-2 .box-words-wrapper {
@@ -571,6 +582,7 @@ b i:last-child {
 
 .box-headline.rotate-2 b {
     opacity: 0;
+
 }
 
 .box-headline.rotate-2 i {
