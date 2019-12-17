@@ -534,7 +534,7 @@ b i:last-child {
     display: flex;
     width: 100% !important;
     justify-content: center;
-    z-index: 10;
+
 }
 
 .box-words-wrapper {
